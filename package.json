@@ -1,0 +1,26 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "baseUrl": "https://tbdev.me",
+  "bin": {
+    "shorten": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baker-travis/url-shortener.git"
+  },
+  "author": "Travis Baker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baker-travis/url-shortener/issues"
+  },
+  "homepage": "https://github.com/baker-travis/url-shortener#readme",
+  "devDependencies": {
+    "netlify-shortener": "^2.3.0"
+  }
+}
